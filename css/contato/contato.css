@@ -1,0 +1,18 @@
+#contato{
+    background-color: var(--cor-1);
+}
+
+.contato{
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    padding: 20px;
+}
+
+.contato-dados,
+.contato-formaulario{
+   padding: 60px;
+}
+
+.contato-dados{
+    background: var(--cor-12);
+}
