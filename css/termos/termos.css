@@ -1,23 +1,17 @@
-.termos{
-    padding: 80px 0px;
-    
+.termos {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.titulo {
-padding-left: 20px;
+.termos h2 {
+  margin-bottom: 20px;
 }
 
-
-.termos h2{
-    margin-bottom: 20px;
-    font-weight: 600;
+.termos p + h2 {
+  margin-top: 48px;
 }
 
-.termos p{
-    margin-bottom: 24px;
-    max-width: 75ch;
-}
-
-.termos p + h2{
-    margin-top: 50px;
+.termos p {
+  max-width: 75ch;
+  margin-bottom: 24px;
 }

@@ -1,62 +1,41 @@
-
-/* Reset Global */ 
 @import "./global/global.css";
-@import "./utilidades/cores.css";
+
+/* Utilidades */
 @import "./utilidades/tipografia.css";
-
-/* Componentes reutilizavéis*/
+@import "./utilidades/cores.css";
 @import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
+/* @import "./utilidades/simple-anime.css"; */
 
-/* Header-Global */
+/* Header e Footer */
 @import "./global/header.css";
+@import "./global/footer.css";
 
-/* Introdução */
+/* Home */
 @import "./home/introducao.css";
-
-/* Bicicletas Lista */
-
-@import "./bicicletas/bicicletas-lista.css";
-
-/* Tecnologias */
-
-@import "./tecnologias/tecnologias.css";
-
-/* Parceiros */
-
+@import "./home/tecnologia.css";
 @import "./home/parceiros.css";
-
-/* Depoimento */
-
 @import "./home/depoimento.css";
 
 /* Seguros */
-
 @import "./seguros/seguros.css";
-
-
-/* Footer */
-
-@import "./global/footer.css";
-
-
-/* Página de Termos*/
-
-@import "./termos/termos.css";
-
-/* Página de bicicletas*/
-
-@import "./bicicletas/bicicletas.css";
-
-/* Vantagens */
-
 @import "./seguros/vantagens.css";
-
 @import "./seguros/perguntas.css";
 
-@import "./bicicleta/bicicleta.css";
+/* Biciletas */
+@import "./bicicletas/bicicletas.css";
+@import "./bicicletas/bicicletas-lista.css";
 
+/* Bicileta */
+@import "./bicicleta/bicicleta.css";
 @import "./bicicleta/seguro.css";
 
+/* Contato */
 @import "./contato/contato.css";
 @import "./contato/lojas.css";
-@import "./utilidades/formaulario.css";
+
+/* Orçamento */
+@import "./orcamento/orcamento.css";
+
+/* Termos */
+@import "./termos/termos.css";
